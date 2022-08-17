@@ -10,9 +10,15 @@ class Queue():
     def retrieve(self):
         #returns the queue as is
         return self.items
+    
+    def peek(self):
+        #returns top element of queue
+        return self.items[0]
 
     def isEmpty(self):
-        #is the queue empty?
+        '''
+        is the queue empty?
+        '''
         return self.items == []
     
     def push(self,x):

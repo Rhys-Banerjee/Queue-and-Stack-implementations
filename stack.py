@@ -27,8 +27,6 @@ class Stack():
         # return size of stack
         return len(self.items)
 
-
-
 if __name__=="__main__":
     test2 = Stack()
     test2.push(1)
@@ -38,3 +36,4 @@ if __name__=="__main__":
     test2.pop()
     print(test2.retrieve())
     print(test2.peek())
+
